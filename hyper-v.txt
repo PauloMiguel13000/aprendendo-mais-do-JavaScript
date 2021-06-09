@@ -1,0 +1,4 @@
+Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Hypervisor  || desabilitar
+
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All || vc saber pq é obvio né, 
+se tem desabilitar, tem habilitar
